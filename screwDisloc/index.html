@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PETN Molecule Viewer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 40px;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .viewer-container {
+    display: flex;
+    justify-content: center;
+  }
+  iframe {
+    width: 800px;
+    height: 600px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #000;
+  }
+  @media (max-width: 900px) {
+    iframe {
+      width: 100%;
+      height: 500px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<h1>PETN Molecular Structure</h1>
+
+<div class="viewer-container">
+  <iframe
+      src="object.html"
+      loading="lazy"
+      allowfullscreen>
+  </iframe>
+</div>
+
+</body>
+</html>
