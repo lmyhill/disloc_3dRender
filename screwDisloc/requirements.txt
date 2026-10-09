@@ -1,4 +1,5 @@
 numpy==2.3.5
+Pillow==11.3.0
 ovito==3.14.1
 PySide6==6.10.1
 PySide6_Addons==6.10.1
