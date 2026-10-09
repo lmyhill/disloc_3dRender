@@ -27,6 +27,12 @@
     border-radius: 8px;
     background: #000;
   }
+  .rotation-preview {
+    width: 800px;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
   @media (max-width: 900px) {
     iframe {
       width: 100%;
@@ -45,6 +51,14 @@
       loading="lazy"
       allowfullscreen>
   </iframe>
+</div>
+
+<h2>Rotating preview</h2>
+<div class="viewer-container">
+  <img
+      class="rotation-preview"
+      src="config.gif"
+      alt="A 3D rotation around the imported object">
 </div>
 
 </body>
